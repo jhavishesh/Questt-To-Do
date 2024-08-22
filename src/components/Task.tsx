@@ -4,7 +4,7 @@ import { Pencil2Icon, TrashIcon } from "@radix-ui/react-icons";
 import { Badge } from "./ui/Badge";
 import { Button } from "./ui/Button";
 import { Dialog, DialogTrigger } from "./ui/Dialog";
-import EditTask from "./EditTask";
+// import EditTask from "./EditTask";
 import { useState } from "react";
 import { useStore } from "@/stores/StoreProvider";
 import { observer } from "mobx-react-lite";
@@ -26,29 +26,6 @@ const Task = observer(({ id, title, description, status }: TaskProps) => {
         <h3 className="text-lg font-medium">{title}</h3>
 
         <div className="flex gap-1 sm:gap-3">
-          <Dialog
-            open={open}
-            onOpenChange={setOpen}
-          >
-            <DialogTrigger asChild>
-              <Button
-                variant="ghost"
-                size="icon"
-              >
-                <Pencil2Icon className="w-5 h-5 text-blue-500" />
-              </Button>
-            </DialogTrigger>
-
-            <EditTask
-              id={id}
-              title={title}
-              description={description}
-              status={status}
-              open={open}
-              setOpen={setOpen}
-            />
-          </Dialog>
-
           <Button
             variant="ghost"
             size="icon"

@@ -59,9 +59,7 @@ The project's folder structure is as follows:
   - components
     - ui
     - AddTask.tsx
-    - EditTask.tsx
     - Task.tsx
-    - TaskFilter.tsx
     - TaskList.tsx
     ..
   - lib
@@ -83,9 +81,7 @@ Explanation:
   - `components`: Contains reusable components used across different pages or layouts.
     - `ui`: Contains reusable UI components that are not specific to the task management functionality. These components can be used throughout the application.
     - `AddTask.tsx`: Component responsible for adding a new task.
-    - `EditTask.tsx`: Component responsible for editing an existing task.
     - `Task.tsx`: Component responsible for displaying a single task.
-    - `TaskFilter.tsx`: Component responsible for filtering tasks based on their status.
     - `TaskList.tsx`: Component responsible for displaying a list of tasks.
     - ...
   - `lib`: Contains utility files or modules that provide common functions or helper methods. These utilities can be used across the application to perform common tasks.
