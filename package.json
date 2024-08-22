@@ -38,6 +38,7 @@
     "uuid": "^9.0.0"
   },
   "devDependencies": {
+    "@types/react-beautiful-dnd": "^13.1.8",
     "tailwind-scrollbar": "^3.0.4"
   }
 }

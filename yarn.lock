@@ -482,6 +482,13 @@
   "resolved" "https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.5.tgz"
   "version" "15.7.5"
 
+"@types/react-beautiful-dnd@^13.1.8":
+  "integrity" "sha512-E3TyFsro9pQuK4r8S/OL6G99eq7p8v29sX0PM7oT8Z+PJfZvSQTx4zTQbUJ+QZXioAF0e7TGBEcA1XhYhCweyQ=="
+  "resolved" "https://registry.npmjs.org/@types/react-beautiful-dnd/-/react-beautiful-dnd-13.1.8.tgz"
+  "version" "13.1.8"
+  dependencies:
+    "@types/react" "*"
+
 "@types/react-dom@*", "@types/react-dom@18.2.6":
   "integrity" "sha512-2et4PDvg6PVCyS7fuTc4gPoksV58bW0RwSxWKcPRcHZf0PRUGq03TKcD/rUHe3azfV6/5/biUBJw+HhCQjaP0A=="
   "resolved" "https://registry.npmjs.org/@types/react-dom/-/react-dom-18.2.6.tgz"
