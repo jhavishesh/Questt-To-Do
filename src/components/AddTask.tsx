@@ -59,7 +59,7 @@ const AddTask = observer(() => {
         <DialogHeader>
           <DialogTitle className="text-xl">Add Task</DialogTitle>
           <DialogDescription>
-            Add a new Task to your Questt Study App. Click save when you are
+            Add a new Task to your Questt To Do App. Click save when you are
             done.
           </DialogDescription>
         </DialogHeader>
