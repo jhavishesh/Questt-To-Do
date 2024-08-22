@@ -21,7 +21,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             <header className="bg-blue-600 text-white py-4 shadow-md">
               <nav className="container mx-auto flex justify-between items-center">
                 <Link href="/" className="text-xl font-bold">
-                Questt Study App
+                Questt TO DO App
                 </Link>
                 <div>
                   <Link href="/" className="mx-4 hover:underline">
@@ -40,7 +40,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             {/* Footer */}
             <footer className="bg-gray-800 text-white py-4 mt-4">
               <div className="container mx-auto text-center">
-                <p>&copy; {new Date().getFullYear()} Questt Study App</p>
+                <p>&copy; {new Date().getFullYear()} Questt TO DO App</p>
               </div>
             </footer>
           </div>
